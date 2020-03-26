@@ -60,6 +60,9 @@ header .header {
   margin-left: 0;
   text-decoration: none;
 }
+p {
+  text-align: justify;
+}
 aside {
   float: right;
   width: 20%;
@@ -70,6 +73,27 @@ aside {
 }
 aside a {
   text-decoration: none;
+}
+.menu a:hover {
+  background-color: red;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+aside a:hover {
+  background-color: red;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+.footer-contents a:hover {
+  background-color: red;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+aside img {
+  transform: scale(1);
+}
+aside img:hover {
+  transform: scale(1.2);
 }
 .pet-lists {
   display: flex;
@@ -87,7 +111,16 @@ aside a {
 .pet-datail {
   margin-right: 50px;
 }
-
+section img {
+  transform: scale(1);
+  margin: 0 10px;
+}
+section img:hover {
+  transform: scale(1.2);
+}
+section .pet-datail {
+  margin: 0 20px;
+}
 .footer img {
   margin-top: 30px;
   width: 100%;
@@ -114,4 +147,13 @@ aside a {
 .footer .footer-contents li a {
   color: white;
   text-decoration: none;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: teal;
+}
+.back-to-top a:hover {
+  color: teal;
 }
